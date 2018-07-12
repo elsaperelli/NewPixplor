@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1251EFFF1F38FA1B00296CD4 /* MainCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1251EFFE1F38FA1B00296CD4 /* MainCategoriesViewController.swift */; };
+		12AE5AC31F3191C60068CEA2 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AE5ABC1F3191C60068CEA2 /* BEMAnimationManager.m */; };
+		12AE5AC41F3191C60068CEA2 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AE5ABE1F3191C60068CEA2 /* BEMCheckBox.m */; };
+		12AE5AC51F3191C60068CEA2 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AE5AC01F3191C60068CEA2 /* BEMCheckBoxGroup.m */; };
+		12AE5AC61F3191C60068CEA2 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AE5AC21F3191C60068CEA2 /* BEMPathManager.m */; };
+		12B54FF61F311CE5007B9BE7 /* InfoPatientListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B54FF51F311CE5007B9BE7 /* InfoPatientListTableViewController.swift */; };
+		12B54FF81F311E19007B9BE7 /* NewPatientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B54FF71F311E19007B9BE7 /* NewPatientTableViewCell.swift */; };
+		38030FB71F32234400200F4B /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38030FB61F32234400200F4B /* ResetPasswordViewController.swift */; };
+		383104321F1D050900E40B20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383104311F1D050900E40B20 /* AppDelegate.swift */; };
+		383104341F1D050900E40B20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383104331F1D050900E40B20 /* ViewController.swift */; };
+		383104391F1D050900E40B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383104381F1D050900E40B20 /* Assets.xcassets */; };
+		3831043C1F1D050900E40B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3831043A1F1D050900E40B20 /* LaunchScreen.storyboard */; };
+		383104461F1D055000E40B20 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383104451F1D055000E40B20 /* RegisterViewController.swift */; };
+		383104481F1D055600E40B20 /* SlideshowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383104471F1D055600E40B20 /* SlideshowViewController.swift */; };
+		3831044C1F1D056900E40B20 /* PatientsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3831044A1F1D056900E40B20 /* PatientsListViewController.swift */; };
+		3831044D1F1D056900E40B20 /* PatientProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3831044B1F1D056900E40B20 /* PatientProfileViewController.swift */; };
+		3831044F1F1D058100E40B20 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3831044E1F1D058100E40B20 /* LoginViewController.swift */; };
+		383104511F1D30D200E40B20 /* AuthenticateInstitution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383104501F1D30D200E40B20 /* AuthenticateInstitution.swift */; };
+		3862C2AB1F33BCFA00789928 /* fishface_ckplus.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3862C2A91F33BCFA00789928 /* fishface_ckplus.xml */; };
+		3862C2AC1F33BCFA00789928 /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3862C2AA1F33BCFA00789928 /* haarcascade_frontalface_default.xml */; };
+		3862C2AE1F33C3BA00789928 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862C2AD1F33C3BA00789928 /* Stack.swift */; };
+		3862C2B11F33C3DE00789928 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862C2B01F33C3DE00789928 /* Stopwatch.swift */; };
+		3862C2B31F33C3EF00789928 /* FrameExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862C2B21F33C3EF00789928 /* FrameExtractor.swift */; };
+		3862C2B51F33C46600789928 /* EmotionRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862C2B41F33C46600789928 /* EmotionRecognition.swift */; };
+		3862C2BA1F33C5BB00789928 /* EmotionRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3862C2B91F33C5BB00789928 /* EmotionRecognizer.mm */; };
+		38800FAB1F3CC2310078B1FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38800FAA1F3CC2310078B1FE /* Main.storyboard */; };
+		38800FB11F3CCD980078B1FE /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38800FAD1F3CCD980078B1FE /* Comfortaa-Bold.ttf */; };
+		38800FB21F3CCD980078B1FE /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38800FAE1F3CCD980078B1FE /* Comfortaa-Light.ttf */; };
+		38800FB31F3CCD980078B1FE /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38800FAF1F3CCD980078B1FE /* Comfortaa-Regular.ttf */; };
+		38800FB41F3CCD980078B1FE /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 38800FB01F3CCD980078B1FE /* OFL.txt */; };
+		3893CA1C1F32482F0067CC3F /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3893CA1B1F32482F0067CC3F /* CategoriesViewController.swift */; };
+		3893CA1F1F3248550067CC3F /* CategoriesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3893CA1D1F3248550067CC3F /* CategoriesViewCell.swift */; };
+		3893CA201F3248550067CC3F /* CategoriesViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3893CA1E1F3248550067CC3F /* CategoriesViewCell.xib */; };
+		FB788FCA20EA7C2A00F0F940 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB788FC920EA7C2900F0F940 /* OpenCVWrapper.mm */; };
+		FB788FCE20EAB50A00F0F940 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB788FCB20EAB4A000F0F940 /* opencv2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3893CA1A1F322C8E0067CC3F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1251EFFE1F38FA1B00296CD4 /* MainCategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCategoriesViewController.swift; sourceTree = "<group>"; };
+		12AE5ABB1F3191C60068CEA2 /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
+		12AE5ABC1F3191C60068CEA2 /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
+		12AE5ABD1F3191C60068CEA2 /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
+		12AE5ABE1F3191C60068CEA2 /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBox.m; sourceTree = "<group>"; };
+		12AE5ABF1F3191C60068CEA2 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		12AE5AC01F3191C60068CEA2 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		12AE5AC11F3191C60068CEA2 /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
+		12AE5AC21F3191C60068CEA2 /* BEMPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMPathManager.m; sourceTree = "<group>"; };
+		12AE5AC71F3192580068CEA2 /* checkBoxHeader2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = checkBoxHeader2.h; path = ../checkBoxHeader2.h; sourceTree = "<group>"; };
+		12B54FF51F311CE5007B9BE7 /* InfoPatientListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPatientListTableViewController.swift; sourceTree = "<group>"; };
+		12B54FF71F311E19007B9BE7 /* NewPatientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPatientTableViewCell.swift; sourceTree = "<group>"; };
+		38030FB61F32234400200F4B /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		3831042E1F1D050900E40B20 /* Emotive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emotive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		383104311F1D050900E40B20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		383104331F1D050900E40B20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		383104381F1D050900E40B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3831043B1F1D050900E40B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3831043D1F1D050900E40B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383104451F1D055000E40B20 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		383104471F1D055600E40B20 /* SlideshowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideshowViewController.swift; sourceTree = "<group>"; };
+		3831044A1F1D056900E40B20 /* PatientsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsListViewController.swift; sourceTree = "<group>"; };
+		3831044B1F1D056900E40B20 /* PatientProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientProfileViewController.swift; sourceTree = "<group>"; };
+		3831044E1F1D058100E40B20 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		383104501F1D30D200E40B20 /* AuthenticateInstitution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticateInstitution.swift; sourceTree = "<group>"; };
+		3862C2A91F33BCFA00789928 /* fishface_ckplus.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fishface_ckplus.xml; sourceTree = "<group>"; };
+		3862C2AA1F33BCFA00789928 /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_default.xml; sourceTree = "<group>"; };
+		3862C2AD1F33C3BA00789928 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		3862C2B01F33C3DE00789928 /* Stopwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		3862C2B21F33C3EF00789928 /* FrameExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameExtractor.swift; sourceTree = "<group>"; };
+		3862C2B41F33C46600789928 /* EmotionRecognition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionRecognition.swift; sourceTree = "<group>"; };
+		3862C2B81F33C5BB00789928 /* EmotionRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionRecognizer.h; sourceTree = "<group>"; };
+		3862C2B91F33C5BB00789928 /* EmotionRecognizer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EmotionRecognizer.mm; sourceTree = "<group>"; };
+		38800FAA1F3CC2310078B1FE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		38800FAD1F3CCD980078B1FE /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		38800FAE1F3CCD980078B1FE /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		38800FAF1F3CCD980078B1FE /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		38800FB01F3CCD980078B1FE /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		3893CA1B1F32482F0067CC3F /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		3893CA1D1F3248550067CC3F /* CategoriesViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewCell.swift; sourceTree = "<group>"; };
+		3893CA1E1F3248550067CC3F /* CategoriesViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoriesViewCell.xib; sourceTree = "<group>"; };
+		FB788FC820EA7C2900F0F940 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		FB788FC920EA7C2900F0F940 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		FB788FCB20EAB4A000F0F940 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3831042B1F1D050900E40B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB788FCE20EAB50A00F0F940 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12AE5ABA1F3191C60068CEA2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				12AE5ABB1F3191C60068CEA2 /* BEMAnimationManager.h */,
+				12AE5ABC1F3191C60068CEA2 /* BEMAnimationManager.m */,
+				12AE5ABD1F3191C60068CEA2 /* BEMCheckBox.h */,
+				12AE5ABE1F3191C60068CEA2 /* BEMCheckBox.m */,
+				12AE5ABF1F3191C60068CEA2 /* BEMCheckBoxGroup.h */,
+				12AE5AC01F3191C60068CEA2 /* BEMCheckBoxGroup.m */,
+				12AE5AC11F3191C60068CEA2 /* BEMPathManager.h */,
+				12AE5AC21F3191C60068CEA2 /* BEMPathManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3810BE0D1F3520DD0061D64F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3862C2A91F33BCFA00789928 /* fishface_ckplus.xml */,
+				3862C2AA1F33BCFA00789928 /* haarcascade_frontalface_default.xml */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		3810BE0E1F3520E90061D64F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB788FCB20EAB4A000F0F940 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3810BE0F1F35212B0061D64F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1251EFFE1F38FA1B00296CD4 /* MainCategoriesViewController.swift */,
+				3831044E1F1D058100E40B20 /* LoginViewController.swift */,
+				38030FB61F32234400200F4B /* ResetPasswordViewController.swift */,
+				383104451F1D055000E40B20 /* RegisterViewController.swift */,
+				3831044A1F1D056900E40B20 /* PatientsListViewController.swift */,
+				12B54FF51F311CE5007B9BE7 /* InfoPatientListTableViewController.swift */,
+				3831044B1F1D056900E40B20 /* PatientProfileViewController.swift */,
+				3893CA1B1F32482F0067CC3F /* CategoriesViewController.swift */,
+				383104471F1D055600E40B20 /* SlideshowViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		383104251F1D050900E40B20 = {
+			isa = PBXGroup;
+			children = (
+				FB788FC820EA7C2900F0F940 /* OpenCVWrapper.h */,
+				FB788FC920EA7C2900F0F940 /* OpenCVWrapper.mm */,
+				383104301F1D050900E40B20 /* Emotive */,
+				3831042F1F1D050900E40B20 /* Products */,
+				FB788FCD20EAB50A00F0F940 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3831042F1F1D050900E40B20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3831042E1F1D050900E40B20 /* Emotive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		383104301F1D050900E40B20 /* Emotive */ = {
+			isa = PBXGroup;
+			children = (
+				38800FAA1F3CC2310078B1FE /* Main.storyboard */,
+				38800FAC1F3CCD980078B1FE /* Comfortaa */,
+				3810BE0D1F3520DD0061D64F /* Data */,
+				3810BE0E1F3520E90061D64F /* Frameworks */,
+				12AE5ABA1F3191C60068CEA2 /* Classes */,
+				3862C2AF1F33C3CE00789928 /* Helpers */,
+				3810BE0F1F35212B0061D64F /* ViewControllers */,
+				383104501F1D30D200E40B20 /* AuthenticateInstitution.swift */,
+				383104311F1D050900E40B20 /* AppDelegate.swift */,
+				383104331F1D050900E40B20 /* ViewController.swift */,
+				383104381F1D050900E40B20 /* Assets.xcassets */,
+				3831043A1F1D050900E40B20 /* LaunchScreen.storyboard */,
+				3831043D1F1D050900E40B20 /* Info.plist */,
+			);
+			path = Emotive;
+			sourceTree = "<group>";
+		};
+		3862C2AF1F33C3CE00789928 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				12AE5AC71F3192580068CEA2 /* checkBoxHeader2.h */,
+				3862C2AD1F33C3BA00789928 /* Stack.swift */,
+				3862C2B01F33C3DE00789928 /* Stopwatch.swift */,
+				3862C2B21F33C3EF00789928 /* FrameExtractor.swift */,
+				3862C2B41F33C46600789928 /* EmotionRecognition.swift */,
+				3862C2B81F33C5BB00789928 /* EmotionRecognizer.h */,
+				3862C2B91F33C5BB00789928 /* EmotionRecognizer.mm */,
+				3893CA1D1F3248550067CC3F /* CategoriesViewCell.swift */,
+				3893CA1E1F3248550067CC3F /* CategoriesViewCell.xib */,
+				12B54FF71F311E19007B9BE7 /* NewPatientTableViewCell.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		38800FAC1F3CCD980078B1FE /* Comfortaa */ = {
+			isa = PBXGroup;
+			children = (
+				38800FAD1F3CCD980078B1FE /* Comfortaa-Bold.ttf */,
+				38800FAE1F3CCD980078B1FE /* Comfortaa-Light.ttf */,
+				38800FAF1F3CCD980078B1FE /* Comfortaa-Regular.ttf */,
+				38800FB01F3CCD980078B1FE /* OFL.txt */,
+			);
+			path = Comfortaa;
+			sourceTree = "<group>";
+		};
+		FB788FCD20EAB50A00F0F940 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3831042D1F1D050900E40B20 /* Emotive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383104401F1D050900E40B20 /* Build configuration list for PBXNativeTarget "Emotive" */;
+			buildPhases = (
+				3831042A1F1D050900E40B20 /* Sources */,
+				3831042B1F1D050900E40B20 /* Frameworks */,
+				3831042C1F1D050900E40B20 /* Resources */,
+				3893CA1A1F322C8E0067CC3F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emotive;
+			productName = Emotive;
+			productReference = 3831042E1F1D050900E40B20 /* Emotive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		383104261F1D050900E40B20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Berthy Feng";
+				TargetAttributes = {
+					3831042D1F1D050900E40B20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4XTQKKQ729;
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 383104291F1D050900E40B20 /* Build configuration list for PBXProject "NewEmotive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 383104251F1D050900E40B20;
+			productRefGroup = 3831042F1F1D050900E40B20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3831042D1F1D050900E40B20 /* Emotive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3831042C1F1D050900E40B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38800FB41F3CCD980078B1FE /* OFL.txt in Resources */,
+				38800FB21F3CCD980078B1FE /* Comfortaa-Light.ttf in Resources */,
+				3893CA201F3248550067CC3F /* CategoriesViewCell.xib in Resources */,
+				3862C2AB1F33BCFA00789928 /* fishface_ckplus.xml in Resources */,
+				3831043C1F1D050900E40B20 /* LaunchScreen.storyboard in Resources */,
+				38800FAB1F3CC2310078B1FE /* Main.storyboard in Resources */,
+				3862C2AC1F33BCFA00789928 /* haarcascade_frontalface_default.xml in Resources */,
+				383104391F1D050900E40B20 /* Assets.xcassets in Resources */,
+				38800FB31F3CCD980078B1FE /* Comfortaa-Regular.ttf in Resources */,
+				38800FB11F3CCD980078B1FE /* Comfortaa-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3831042A1F1D050900E40B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AE5AC31F3191C60068CEA2 /* BEMAnimationManager.m in Sources */,
+				3831044F1F1D058100E40B20 /* LoginViewController.swift in Sources */,
+				3862C2B11F33C3DE00789928 /* Stopwatch.swift in Sources */,
+				383104511F1D30D200E40B20 /* AuthenticateInstitution.swift in Sources */,
+				12AE5AC41F3191C60068CEA2 /* BEMCheckBox.m in Sources */,
+				12B54FF81F311E19007B9BE7 /* NewPatientTableViewCell.swift in Sources */,
+				383104461F1D055000E40B20 /* RegisterViewController.swift in Sources */,
+				3862C2BA1F33C5BB00789928 /* EmotionRecognizer.mm in Sources */,
+				12B54FF61F311CE5007B9BE7 /* InfoPatientListTableViewController.swift in Sources */,
+				12AE5AC61F3191C60068CEA2 /* BEMPathManager.m in Sources */,
+				12AE5AC51F3191C60068CEA2 /* BEMCheckBoxGroup.m in Sources */,
+				383104481F1D055600E40B20 /* SlideshowViewController.swift in Sources */,
+				3862C2AE1F33C3BA00789928 /* Stack.swift in Sources */,
+				383104341F1D050900E40B20 /* ViewController.swift in Sources */,
+				FB788FCA20EA7C2A00F0F940 /* OpenCVWrapper.mm in Sources */,
+				3862C2B51F33C46600789928 /* EmotionRecognition.swift in Sources */,
+				3893CA1F1F3248550067CC3F /* CategoriesViewCell.swift in Sources */,
+				3862C2B31F33C3EF00789928 /* FrameExtractor.swift in Sources */,
+				1251EFFF1F38FA1B00296CD4 /* MainCategoriesViewController.swift in Sources */,
+				3831044C1F1D056900E40B20 /* PatientsListViewController.swift in Sources */,
+				38030FB71F32234400200F4B /* ResetPasswordViewController.swift in Sources */,
+				3831044D1F1D056900E40B20 /* PatientProfileViewController.swift in Sources */,
+				3893CA1C1F32482F0067CC3F /* CategoriesViewController.swift in Sources */,
+				383104321F1D050900E40B20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3831043A1F1D050900E40B20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3831043B1F1D050900E40B20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3831043E1F1D050900E40B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3831043F1F1D050900E40B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		383104411F1D050900E40B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XTQKKQ729;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Emotive",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Emotive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pixplor.princeton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = checkBoxHeader2.h;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		383104421F1D050900E40B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XTQKKQ729;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Emotive",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Emotive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pixplor.princeton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		383104291F1D050900E40B20 /* Build configuration list for PBXProject "NewEmotive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3831043E1F1D050900E40B20 /* Debug */,
+				3831043F1F1D050900E40B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383104401F1D050900E40B20 /* Build configuration list for PBXNativeTarget "Emotive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383104411F1D050900E40B20 /* Debug */,
+				383104421F1D050900E40B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 383104261F1D050900E40B20 /* Project object */;
+}
